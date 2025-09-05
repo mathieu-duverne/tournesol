@@ -26,10 +26,4 @@ try:
 except Exception as e:
     print(f"Error rendering text with emoji: {e}")
 
-img.save('/tmp/test_emoji_rendering.png')
-
-# Next steps to fix:
- # Test display emoji with NotoColorEmoji.ttf Is it possible to draw the character only with this font and the rest with actual font
- # Replace direct draw.text() when emojis can be displayed (e.g. titles, YT channel names?) by custom function
- # Trigger when a character is an emoji
- # Display the character using an emoji-supporting font
+img.save('/backend/scripts/previews/test_emoji_rendering.png')

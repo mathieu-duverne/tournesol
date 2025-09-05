@@ -62,3 +62,6 @@ tweepy==4.14.0
 python-dotenv==1.0.0
 # AT protocol library for Bluesky
 atproto==0.0.58
+# Emoji support for preview generation. See https://github.com/tournesol-app/tournesol/issues/1621
+emoji==1.6.3
+pilmoji==2.0.4
